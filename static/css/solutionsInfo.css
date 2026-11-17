@@ -418,6 +418,12 @@
   text-transform: uppercase;
   margin: 0 0 19px;
 }
+.solutionsInfo4 .wrap .content-container{
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
 .solutionsInfo4 .wrap .content {
   border-radius: 14px;
   background: #007F7B;
@@ -507,9 +513,9 @@
   font-size: 16px;
 }
 
-.solutionsInfo4 .wrap .content + .content {
+/* .solutionsInfo4 .wrap .content + .content {
   margin-top: 16px;
-}
+} */
 .solutionsInfo1 .wrap .content .l .item .icon img,
 .solutionsInfo3 .wrap .content .keySwiper .swiper-slide .item .item_t .headline .l .icon img {
   width: 100%;
