@@ -1,0 +1,209 @@
+.common_banner .wrap .p3 {
+  text-transform: unset;
+}
+
+.news1 {
+  position: relative;
+  z-index: 1;
+  padding: 74px 0 150px;
+}
+.news1 .cta__animation {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  min-width: 96rem;
+  height: 500px;
+}
+.news1 .wrap {
+  width: 1400px;
+  margin: auto;
+}
+.news1 .wrap .up {
+  text-align: center;
+}
+.news1 .wrap .up .cut {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+.news1 .wrap .up .cut .list {
+  height: 40px;
+  border-radius: 116px;
+  border: 1px solid rgba(17, 17, 17, 0.2);
+  padding: 0 20px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333333;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  transition: .6s ease;
+}
+.news1 .wrap .up .cut .list.on, .news1 .wrap .up .cut .list:hover {
+  background: #007F7B;
+  color: #fff;
+  border-color: #007F7B;
+}
+.news1 .wrap .content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin: 75px 0 0 0;
+}
+.news1 .wrap .content .item {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #EBEBEB;
+  display: block;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.news1 .wrap .content .item:hover .img img {
+  transform: scale(1.05);
+}
+.news1 .wrap .content .item:hover .text .p1 {
+  color: var(--color);
+}
+.news1 .wrap .content .item .img {
+  width: 100%;
+  height: 220px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.news1 .wrap .content .item .img img {
+  width: 100%;
+  height: 100%;
+  transition: .6s ease;
+}
+.news1 .wrap .content .item .text {
+  padding: 36px 30px 30px 40px;
+}
+.news1 .wrap .content .item .text .time {
+  color: #999999;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  margin: 0 0 15px;
+}
+.news1 .wrap .content .item .text .p1 {
+  color: #111;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 137.5%;
+  margin: 0 0 25px;
+  height: 65px;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  transition: .4s ease;
+}
+.news1 .wrap .content .item .text .more {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 35px 0 0;
+}
+.news1 .wrap .content .item .text .more p {
+  color: var(--color);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  transition: .6s ease;
+}
+.news1 .wrap .content .item .text .more img {
+  width: 12px;
+  display: block;
+  transition: .4s ease;
+  position: relative;
+}
+
+.newsInfo1 {
+  position: relative;
+  z-index: 1;
+  padding: 218px 0 130px;
+}
+.newsInfo1 .wrap {
+  width: 1200px;
+  margin: auto;
+}
+.newsInfo1 .wrap .up {
+  padding: 0 0 26px;
+  border-bottom: 1px solid rgba(217, 217, 217, 0.2);
+}
+.newsInfo1 .wrap .up .title {
+  color: #111;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  margin: 0 0 7px;
+}
+.newsInfo1 .wrap .up .time {
+  color: rgba(51, 51, 51, 0.4);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+}
+.newsInfo1 .wrap .up .dis {
+  display: flex;
+  align-items: center;
+  gap: 39px;
+  margin: 20px 0 0;
+}
+.newsInfo1 .wrap .up .dis .list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.newsInfo1 .wrap .up .dis .list .icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 7px;
+  background: #F0F0F0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.newsInfo1 .wrap .up .dis .list .icon img {
+  object-fit: contain;
+}
+.newsInfo1 .wrap .up .dis .list p {
+  color: #888;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.newsInfo1 .wrap .content {
+  margin: 35px 0 0 0;
+}
+.newsInfo1 .wrap .content p {
+  color: #111;
+  text-align: justify;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%;
+}
+.newsInfo1 .wrap .content img {
+  height: auto;
+}
+.newsInfo1 .wrap .content ul li {
+  color: #111;
+  text-align: justify;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%;
+  list-style-type: disc;
+  margin: 0 0 0 26px;
+}

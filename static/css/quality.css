@@ -1,0 +1,110 @@
+.common_banner .wrap {
+  position: relative;
+  top: 20px;
+}
+.common_banner .wrap .p3 {
+  width: 660px;
+  font-size: 14px;
+}
+
+.quality1 {
+  position: relative;
+  padding: 75px 0 40px;
+}
+.quality1 .wrap {
+  width: 1400px;
+  margin: auto;
+}
+.quality1 .wrap .up .p1 {
+  color: #007F7B;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0 0 7px;
+}
+.quality1 .wrap .up .p2 {
+  color: #111;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.quality1 .wrap .up .p3 {
+  color: #969696;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 4px 0 0 0;
+}
+.quality1 .wrap .content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px 17px;
+  margin: 56px 0 0;
+}
+.quality1 .wrap .content .item {
+  width: 100%;
+  border-radius: 14px;
+  padding: 47px 43px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.quality1 .wrap .content .item:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: inherit;
+  z-index: -1;
+  border: 1px solid #EEE;
+  background: #FAFAFA;
+  transition: .4s ease;
+}
+.quality1 .wrap .content .item:hover:after {
+  background: #FFF;
+  box-shadow: 0 9px 45px 0 rgba(0, 0, 0, 0.08);
+  border-color: transparent;
+}
+.quality1 .wrap .content .item:hover .common_more img {
+  transform: translateX(4px);
+}
+.quality1 .wrap .content .item:hover .common_more .fist:first-child div {
+  transform: translate3d(0, -101%, 0);
+  opacity: 0;
+}
+.quality1 .wrap .content .item:hover .common_more .fist:nth-child(2) div {
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+.quality1 .wrap .content .item .p1 {
+  color: #333;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0 0 9px;
+}
+.quality1 .wrap .content .item .p2 {
+  color: #666;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133.333%;
+}
+.quality1 .wrap .content .item .p3 {
+  margin: 27px 0 44px;
+  color: #666;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 142.857%;
+}
+.quality1 .wrap .content .item .common_more p {
+  font-size: 16px;
+}

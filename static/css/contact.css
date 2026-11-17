@@ -1,0 +1,453 @@
+.common_banner .wrap .p3 {
+  text-transform: unset;
+}
+
+.contact2 {
+  padding: 80px 0 0;
+  background: #FBFBFB;
+}
+.contact2 .wrap {
+  width: 1400px;
+  margin: auto;
+}
+.contact2 .wrap .title {
+  width: 924px;
+  margin: auto;
+  text-align: center;
+}
+.contact2 .wrap .title .p1 {
+  color: #333;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin: 0 0 16px;
+}
+.contact2 .wrap .title .p2 {
+  color: rgba(51, 51, 51, 0.7);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 144.444%;
+  text-transform: capitalize;
+}
+.contact2 .wrap .content {
+  height: 817px;
+  position: relative;
+  margin: 23px 0 0;
+}
+.contact2 .wrap .content #earth {
+  width: 700px;
+  height: 700px;
+  position: relative;
+  top: 50px;
+  margin: auto;
+}
+.contact2 .wrap .content #earth:before {
+  content: '';
+  width: 616px;
+  height: 616px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #000;
+  opacity: 0;
+  border-radius: 50%;
+  pointer-events: none;
+}
+.contact2 .wrap .content #earth:after {
+  content: '';
+  position: absolute;
+  width: 150%;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(0deg, #000, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3));
+  pointer-events: none;
+  opacity: 0;
+}
+.contact2 .wrap .content #earth .point {
+  cursor: pointer;
+  position: absolute;
+  z-index: 5;
+}
+.contact2 .wrap .content #earth .point .joke {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1px;
+  height: 1px;
+}
+.contact2 .wrap .content #earth .point .joke .circle {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  background: #E9E9E9;
+  border: 1px solid var(--color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 5;
+}
+.contact2 .wrap .content #earth .point .joke .circle span {
+  width: 9px;
+  height: 9px;
+  border-radius: inherit;
+  background: #007F7B;
+  display: block;
+}
+.contact2 .wrap .content #earth .point .joke .hide {
+  position: absolute;
+  left: -25px;
+  top: 50%;
+  height: 49px;
+  transform: translateY(-50%);
+  border-radius: 73px;
+  background: #FFF;
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact2 .wrap .content #earth .point .joke .hide > div {
+  position: relative;
+}
+.contact2 .wrap .content #earth .point .joke .hide .text {
+  color: #333;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: capitalize;
+  white-space: nowrap;
+  padding: 0 12px 0 53px;
+}
+.contact2 .wrap .content .headline {
+  position: absolute;
+  left: 0;
+  top: 150px;
+  color: #333;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 123.077%;
+  text-transform: capitalize;
+}
+.contact2 .wrap .content .cut {
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+}
+.contact2 .wrap .content .cut .list {
+  color: #333;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 320%;
+  text-transform: capitalize;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  transition: .3s ease;
+}
+.contact2 .wrap .content .cut .list:after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%) scale(0);
+  background: var(--color);
+  transition: .3s ease;
+}
+.contact2 .wrap .content .cut .list.on {
+  padding: 0 0 0 25px;
+  color: var(--color);
+}
+.contact2 .wrap .content .cut .list.on:after {
+  transform: translateY(-50%) scale(1);
+}
+.contact2 .wrap .content .message {
+  position: absolute;
+  right: 0;
+  bottom: 100px;
+  width: 360px;
+  border-radius: 14px;
+  background: #FFF;
+  box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.08);
+  z-index: 5;
+}
+.contact2 .wrap .content .message .item {
+  padding: 35px 37px;
+  width: 360px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  pointer-events: none;
+  opacity: 0;
+  transform: translateX(15px);
+  transition: .6s ease;
+}
+.contact2 .wrap .content .message .item.on {
+  pointer-events: auto;
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: .3s;
+}
+.contact2 .wrap .content .message .item:not(:first-child) {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.contact2 .wrap .content .message .item .p1 {
+  color: #333;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin: 0 0 10px;
+}
+.contact2 .wrap .content .message .item .label {
+  height: 44px;
+  background: rgba(0, 127, 123, 0.1);
+  width: fit-content;
+  padding: 0 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.contact2 .wrap .content .message .item .flex {
+  margin: 20px 0 0;
+}
+.contact2 .wrap .content .message .item .flex .list:not(:last-child) {
+  margin: 0 0 14px;
+}
+.contact2 .wrap .content .message .item .flex .list .dis {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin: 0 0 8px;
+}
+.contact2 .wrap .content .message .item .flex .list .dis .icon {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact2 .wrap .content .message .item .flex .list .dis .icon img {
+  object-fit: contain;
+}
+.contact2 .wrap .content .message .item .flex .list .dis p {
+  color: rgba(51, 51, 51, 0.4);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.contact2 .wrap .content .message .item .flex .list .a1 {
+  color: #333;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  text-transform: capitalize;
+}
+
+.contact3 {
+  padding: 100px 0 160px;
+}
+.contact3 .wrap {
+  width: 1480px;
+  margin: auto;
+}
+.contact3 .wrap .up {
+  text-align: center;
+}
+.contact3 .wrap .up .p1 {
+  color: #333;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin: 0 0 12px;
+}
+.contact3 .wrap .up .p2 {
+  color: rgba(51, 51, 51, 0.7);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.contact3 .wrap .content {
+  margin: 70px 0 0 0;
+}
+.contact3 .wrap .content .item {
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  border-radius: 12px;
+  transition: .6s ease;
+}
+.contact3 .wrap .content .item.on {
+  border-color: #007F7B;
+}
+.contact3 .wrap .content .item.on .show .r .icon2 {
+  opacity: 1;
+}
+.contact3 .wrap .content .item.on .show .r .jt {
+  transform: rotate(-180deg);
+}
+.contact3 .wrap .content .item:not(:last-child) {
+  margin: 0 0 27px;
+}
+.contact3 .wrap .content .item .show {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 135px;
+  padding: 0 83px 0 33px;
+  cursor: pointer;
+}
+.contact3 .wrap .content .item .show .l {
+  display: flex;
+  align-items: center;
+}
+.contact3 .wrap .content .item .show .l .icon {
+  width: 82px;
+  height: 82px;
+  background: rgba(217, 217, 217, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact3 .wrap .content .item .show .l .icon img {
+  object-fit: contain;
+}
+.contact3 .wrap .content .item .show .l .text {
+  margin: 0 0 0 28px;
+}
+.contact3 .wrap .content .item .show .l .text .p1 {
+  color: #333;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin: 0 0 7px;
+  line-height: 100%;
+}
+.contact3 .wrap .content .item .show .l .text .p2 {
+  color: #969696;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.contact3 .wrap .content .item .show .r {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+}
+.contact3 .wrap .content .item .show .r .icon2 {
+  width: 22px;
+  height: 25px;
+  opacity: 0;
+  transition: .6s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact3 .wrap .content .item .show .r .jt {
+  width: 18px;
+  height: 11px;
+  display: flex;
+  transition: .3s ease;
+}
+.contact3 .wrap .content .item .show .r .jt img {
+  object-fit: contain;
+}
+.contact3 .wrap .content .item .hide {
+  overflow: hidden;
+  display: none;
+}
+.contact3 .wrap .content .item .hide > div {
+  margin: 23px 33px 50px 37px;
+}
+.contact3 .wrap .content .item .hide > div .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 36px 33px;
+}
+.contact3 .wrap .content .item .hide > div .grid .grid_item {
+  width: 100%;
+  height: 282px;
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  border-radius: 12px;
+  padding: 28px 50px;
+  transition: .6s ease;
+}
+.contact3 .wrap .content .item .hide > div .grid .grid_item:hover {
+  border-color: #007F7B;
+}
+.contact3 .wrap .content .item .hide > div .grid .grid_item .p1 {
+  color: #333;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.contact3 .wrap .content .item .hide > div .grid .grid_item .p2 {
+  height: 42px;
+  width: fit-content;
+  border-radius: 7px;
+  background: rgba(0, 127, 123, 0.1);
+  margin: 7px 0 12px;
+  display: flex;
+  align-items: center;
+  padding: 0 13px;
+  justify-content: center;
+  color: #333;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.contact3 .wrap .content .item .hide > div .grid .grid_item .flex .list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.contact3 .wrap .content .item .hide > div .grid .grid_item .flex .list:not(:last-child) {
+  margin: 0 0 9px;
+}
+.contact3 .wrap .content .item .hide > div .grid .grid_item .flex .list .bt {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact3 .wrap .content .item .hide > div .grid .grid_item .flex .list .bt img {
+  object-fit: contain;
+}
+.contact3 .wrap .content .item .hide > div .grid .grid_item .flex .list p {
+  color: #333;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}

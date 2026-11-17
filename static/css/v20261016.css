@@ -1,0 +1,53 @@
+/* appended styles for v20261016 */
+* {
+    font-family: 'Inter', 'Roboto', -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  /* 添加平滑渲染，让字体在 Mac 上更清晰 */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.height-2of3 {
+  height: 66.6667vh;
+}
+
+.banner.height-2of3 .swiper .swiper-slide {
+  justify-content: flex-start;
+}
+
+.banner .swiper .swiper-slide .content.v20261016 {
+  text-align: unset;
+  top: unset;
+  margin: 0 0 0 clamp(6rem, 6.25vw, 6.25vw);
+  position: unset;
+}
+
+.banner .swiper .swiper-slide .content.v20261016 .text .p1{
+    width: 33.3vw;
+    font-size: 2.5rem;
+    margin: 0 auto 0.5rem;
+}
+
+.banner .swiper .swiper-slide .content.v20261016 .text .p2{
+    width: 33.3vw;
+    font-size: 1.125rem; /* 18px */
+    text-align: unset;
+    text-transform: unset;
+}
+
+.banner .swiper .swiper-slide .content.v20261016 .text .eybrow {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+    color: #46AEB9;
+    position: relative;
+}
+
+.banner .swiper .swiper-slide .content.v20261016 .text .eybrow::after{
+    content: '';
+    border-bottom: 2px solid #46AEB9;
+    position: absolute;
+    width: 2rem;
+    left: 0;
+    top: 1.8rem;
+}

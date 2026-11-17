@@ -1,0 +1,228 @@
+<svg width="1920" height="409" viewBox="0 0 1920 409" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M896 124.221L685.029 124.096C675.332 124.096 667.888 133.075 667.888 144.151V254.596C667.888 265.672 660.445 274.651 650.748 274.651L25 274.777" stroke="url(#paint0_linear_2020_7)" stroke-opacity="0.15"/>
+<path opacity="0.4" d="M59 222.844L537.4 222.544H563.3C573.6 222.544 581.9 214.244 581.9 203.944V170.644C581.9 160.344 590.2 152.044 600.5 152.044H626.4H930" stroke="url(#paint1_linear_2020_7)" stroke-opacity="0.85"/>
+<path d="M871.5 89.0956H-1" stroke="url(#paint2_linear_2020_7)" stroke-opacity="0.25"/>
+<path d="M1026 124.221L1236.97 124.096C1246.67 124.096 1254.11 133.075 1254.11 144.151V254.596C1254.11 265.672 1261.56 274.651 1271.25 274.651L1897 274.777" stroke="url(#paint3_linear_2020_7)" stroke-opacity="0.15"/>
+<path opacity="0.4" d="M1863 222.824L1384.6 222.524H1358.7C1348.4 222.524 1340.1 214.224 1340.1 203.924V170.624C1340.1 160.324 1331.8 152.024 1321.5 152.024H1295.6H992" stroke="url(#paint4_linear_2020_7)"/>
+<path d="M1050.5 89.0956H1923" stroke="url(#paint5_linear_2020_7)" stroke-opacity="0.25"/>
+<g filter="url(#filter0_dddddd_2020_7)">
+<rect width="36" height="1" transform="matrix(1 0 0 -1 1584 89.5956)" fill="#00FFF7"/>
+</g>
+<g filter="url(#filter1_dddddd_2020_7)">
+<rect width="36" height="1" transform="matrix(1 0 0 -1 300 89.5956)" fill="#00FFF7"/>
+</g>
+<g filter="url(#filter2_dddddd_2020_7)">
+<rect width="36" height="1" transform="matrix(1 0 0 -1 1499 223.098)" fill="#00FFF7"/>
+</g>
+<g filter="url(#filter3_dddddd_2020_7)">
+<rect width="36" height="1" transform="matrix(1 0 0 -1 425 223.095)" fill="#00FFF7"/>
+</g>
+<path d="M960 188.096V408.596" stroke="url(#paint6_linear_2020_7)"/>
+<g filter="url(#filter4_dddddd_2020_7)">
+<rect width="20" height="1" transform="matrix(-4.37114e-08 1 1 4.37114e-08 959.5 228.096)" fill="#00FFF7"/>
+</g>
+<defs>
+<filter id="filter0_dddddd_2020_7" x="1495.4" y="-1.52588e-05" width="213.191" height="178.191" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="1.05471"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.760784 0 0 0 0 0.737255 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2020_7"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="2.10942"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.760784 0 0 0 0 0.737255 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_2020_7" result="effect2_dropShadow_2020_7"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="7.38297"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.760784 0 0 0 0 0.737255 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect2_dropShadow_2020_7" result="effect3_dropShadow_2020_7"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="14.7659"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.760784 0 0 0 0 0.737255 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect3_dropShadow_2020_7" result="effect4_dropShadow_2020_7"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="25.313"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.760784 0 0 0 0 0.737255 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect4_dropShadow_2020_7" result="effect5_dropShadow_2020_7"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="44.2978"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.760784 0 0 0 0 0.737255 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect5_dropShadow_2020_7" result="effect6_dropShadow_2020_7"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect6_dropShadow_2020_7" result="shape"/>
+</filter>
+<filter id="filter1_dddddd_2020_7" x="211.404" y="-1.52588e-05" width="213.191" height="178.191" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="1.05471"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.760784 0 0 0 0 0.737255 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2020_7"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="2.10942"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.760784 0 0 0 0 0.737255 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_2020_7" result="effect2_dropShadow_2020_7"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="7.38297"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.760784 0 0 0 0 0.737255 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect2_dropShadow_2020_7" result="effect3_dropShadow_2020_7"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="14.7659"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.760784 0 0 0 0 0.737255 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect3_dropShadow_2020_7" result="effect4_dropShadow_2020_7"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="25.313"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.760784 0 0 0 0 0.737255 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect4_dropShadow_2020_7" result="effect5_dropShadow_2020_7"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="44.2978"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.760784 0 0 0 0 0.737255 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect5_dropShadow_2020_7" result="effect6_dropShadow_2020_7"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect6_dropShadow_2020_7" result="shape"/>
+</filter>
+<filter id="filter2_dddddd_2020_7" x="1410.4" y="133.502" width="213.191" height="178.191" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="1.05471"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.760784 0 0 0 0 0.737255 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2020_7"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="2.10942"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.760784 0 0 0 0 0.737255 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_2020_7" result="effect2_dropShadow_2020_7"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="7.38297"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.760784 0 0 0 0 0.737255 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect2_dropShadow_2020_7" result="effect3_dropShadow_2020_7"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="14.7659"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.760784 0 0 0 0 0.737255 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect3_dropShadow_2020_7" result="effect4_dropShadow_2020_7"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="25.313"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.760784 0 0 0 0 0.737255 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect4_dropShadow_2020_7" result="effect5_dropShadow_2020_7"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="44.2978"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.760784 0 0 0 0 0.737255 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect5_dropShadow_2020_7" result="effect6_dropShadow_2020_7"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect6_dropShadow_2020_7" result="shape"/>
+</filter>
+<filter id="filter3_dddddd_2020_7" x="336.404" y="133.5" width="213.191" height="178.191" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="1.05471"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.760784 0 0 0 0 0.737255 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2020_7"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="2.10942"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.760784 0 0 0 0 0.737255 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_2020_7" result="effect2_dropShadow_2020_7"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="7.38297"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.760784 0 0 0 0 0.737255 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect2_dropShadow_2020_7" result="effect3_dropShadow_2020_7"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="14.7659"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.760784 0 0 0 0 0.737255 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect3_dropShadow_2020_7" result="effect4_dropShadow_2020_7"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="25.313"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.760784 0 0 0 0 0.737255 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect4_dropShadow_2020_7" result="effect5_dropShadow_2020_7"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="44.2978"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.760784 0 0 0 0 0.737255 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect5_dropShadow_2020_7" result="effect6_dropShadow_2020_7"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect6_dropShadow_2020_7" result="shape"/>
+</filter>
+<filter id="filter4_dddddd_2020_7" x="870.904" y="139.5" width="178.191" height="197.191" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="1.05471"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.760784 0 0 0 0 0.737255 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2020_7"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="2.10942"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.760784 0 0 0 0 0.737255 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_2020_7" result="effect2_dropShadow_2020_7"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="7.38297"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.760784 0 0 0 0 0.737255 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect2_dropShadow_2020_7" result="effect3_dropShadow_2020_7"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="14.7659"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.760784 0 0 0 0 0.737255 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect3_dropShadow_2020_7" result="effect4_dropShadow_2020_7"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="25.313"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.760784 0 0 0 0 0.737255 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect4_dropShadow_2020_7" result="effect5_dropShadow_2020_7"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="44.2978"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.760784 0 0 0 0 0.737255 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect5_dropShadow_2020_7" result="effect6_dropShadow_2020_7"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect6_dropShadow_2020_7" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_2020_7" x1="25" y1="153.158" x2="896" y2="153.158" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C2BC" stop-opacity="0"/>
+<stop offset="0.5" stop-color="#00C2BC"/>
+<stop offset="1" stop-color="#00C2BC"/>
+</linearGradient>
+<linearGradient id="paint1_linear_2020_7" x1="930" y1="187.464" x2="58.9995" y2="187.464" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C2BC"/>
+<stop offset="0.5" stop-color="#00C2BC"/>
+<stop offset="1" stop-color="#00C2BC" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint2_linear_2020_7" x1="871.5" y1="89.5956" x2="-1" y2="89.5956" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C2BC"/>
+<stop offset="1" stop-color="#00C2BC" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint3_linear_2020_7" x1="1897" y1="153.158" x2="1026" y2="153.158" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C2BC" stop-opacity="0"/>
+<stop offset="0.5" stop-color="#00C2BC"/>
+<stop offset="1" stop-color="#00C2BC"/>
+</linearGradient>
+<linearGradient id="paint4_linear_2020_7" x1="992" y1="187.444" x2="1863" y2="187.444" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C2BC"/>
+<stop offset="0.5" stop-color="#00C2BC"/>
+<stop offset="1" stop-color="#00C2BC" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint5_linear_2020_7" x1="1050.5" y1="89.5956" x2="1923" y2="89.5956" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C2BC"/>
+<stop offset="1" stop-color="#00C2BC" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint6_linear_2020_7" x1="960" y1="416.096" x2="960" y2="188.596" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C2BC" stop-opacity="0"/>
+<stop offset="1" stop-color="#00C2BC"/>
+</linearGradient>
+</defs>
+</svg>

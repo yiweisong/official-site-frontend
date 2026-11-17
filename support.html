@@ -1,0 +1,142 @@
+<!--由浙江山久网络科技有限公司技术部设计,如果您有任何意见或建议请致电400-863-0574-->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Support</title>
+    <meta name="keywords" content="your keywords">
+    <meta name="description" content="your description">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="static/css/main.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/support.css">
+</head>
+<body>
+<div>
+    <header id="2"></header>
+    <section class="common_banner">
+        <img src="static/images/support_banner.jpg" class="common_bg" alt="">
+        <div class="wrap">
+            <h1 class="p1" aos="fade-top">Support</h1>
+            <div class="p2" aos="fade-top" aos-delay="100">How can we help?</div>
+            <div class="color" aos="fade-top" aos-delay="100">Technical resources and support for every stage of your design.</div>
+            <div class="p3" aos="fade-top" aos-delay="200">
+                Find technical help, development resources, product documentation, quality information, and sales support for ACEINNA products.
+            </div>
+            <div class="supp_search" aos="fade-top" aos-delay="300">
+                <input type="text" name="keyword" data-prompt="Please Enter" required placeholder="Search datasheets, application notes, models, software, EVKs, CAD files and more">
+                <div class="button">Search...</div>
+            </div>
+        </div>
+    </section>
+    <section class="support1">
+        <div class="wrap">
+            <div class="up">
+                <div class="p1" aos="fade-top">Support Areas</div>
+                <div class="p2" aos="fade-top" aos-delay="100">Choose the type of help you need.</div>
+                <div class="p3" aos="fade-top" aos-delay="200">Start with a support area below, or search the Technical Library for a specific product resource.</div>
+            </div>
+            <div class="content">
+                <a href="design-technical-support.html" class="item" aos="fade-top" aos-delay="100">
+                    <div class="img">
+                        <img src="static/images/su1.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <div class="p1">Design & Technical Support</div>
+                        <div class="p2">
+                            Get help selecting, evaluating, designing, integrating, or troubleshooting ACEINNA products, with access to development tools and Applications/FAE support.
+                        </div>
+                        <div class="common_more text_effect">
+                            <p class="appoint">Get Support</p>
+                            <img src="static/images/more3.svg" alt="">
+                        </div>
+                    </div>
+                </a>
+                <a href="technical-library.html" class="item" aos="fade-top" aos-delay="200">
+                    <div class="img">
+                        <img src="static/images/su2.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <div class="p1">Technical Library</div>
+                        <div class="p2">
+                            Search all ACEINNA technical resources, including documents, models, software, CAD files, EVB material, and more.
+                        </div>
+                        <div class="common_more text_effect">
+                            <p class="appoint">Browse Technical Resources</p>
+                            <img src="static/images/more3.svg" alt="">
+                        </div>
+                    </div>
+                </a>
+                <a href="quality-compliance.html" class="item" aos="fade-top" aos-delay="100">
+                    <div class="img">
+                        <img src="static/images/su3.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <div class="p1">Quality & Compliance</div>
+                        <div class="p2">
+                            Access qualification, reliability, compliance, PCN/EOL, and RMA/failure-analysis information for production designs.
+                        </div>
+                        <div class="common_more text_effect">
+                            <p class="appoint">View Quality Resources</p>
+                            <img src="static/images/more3.svg" alt="">
+                        </div>
+                    </div>
+                </a>
+                <a href="sales-samples.html" class="item" aos="fade-top" aos-delay="200">
+                    <div class="img">
+                        <img src="static/images/su4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <div class="p1">Sales & Samples</div>
+                        <div class="p2">
+                            Find distributors, request samples or quotes, and contact ACEINNA about availability and commercial questions.
+                        </div>
+                        <div class="common_more text_effect">
+                            <p class="appoint">Contact Sales</p>
+                            <img src="static/images/more3.svg" alt="">
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="common_next">
+        <img src="static/images/next.jpg" class="common_bg" alt="">
+        <div class="wrap">
+            <div class="p1" aos="fade-top">Let's Build What's Next</div>
+            <div class="p2" aos="fade-top" aos-delay="100">
+                Our engineers are ready to help you findthe right sensing solution for your application.
+            </div>
+            <div class="p3" aos="fade-top" aos-delay="200">
+                Start with a solution area or explore the full product portfolio.
+            </div>
+            <div class="button" aos="fade-top" aos-delay="300">
+                <a href="" class="common_more2 fill text_effect">
+                    <p class="appoint">Talk to an Engineer</p>
+                    <img src="static/images/more3.svg" alt="">
+                </a>
+                <a href="" class="common_more2 text_effect">
+                    <p class="appoint">Explore All Products</p>
+                    <img src="static/images/more3.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+</div>
+</body>
+<script src="static/js/main.js"></script>
+<script src="static/js/common.js"></script>
+<script src="static/js/function.js"></script>
+<script>
+    initFormValidate('.supp_search', '.supp_search .button', function (data) {
+        const keyword = $('.supp_search input[name="keyword"]').val().trim();
+        const url = new URL(window.location.href);
+        url.searchParams.set('keyword', keyword);
+        window.location.href = url.toString();
+    }, 'en');
+</script>
+</html>

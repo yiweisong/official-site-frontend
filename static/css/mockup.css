@@ -1,0 +1,28 @@
+header {
+    display: contents;
+}
+header.active .header{
+    position: sticky;
+    background-color: #fff;
+}
+
+.footer .light{
+    background: rgb(8,8,8);
+    padding: 0;
+}
+
+.card.form-card p {
+    margin: 1rem 0;
+}
+
+.header .nav .item > a {
+    color: #080808
+}
+
+.header .r .head_lag {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.header .r .head_lag p {
+    color: #080808;
+}
