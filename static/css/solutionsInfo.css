@@ -47,7 +47,7 @@
 }
 .solutionsInfo1 .wrap .content .l .item {
   width: 100%;
-  min-height: 220px;
+  height: 220px;
   border-radius: 8px;
   background: #FAFAFA;
   padding: 26px 0 26px 30px;
@@ -73,7 +73,7 @@
   font-weight: 600;
   line-height: normal;
   margin: 16px 0 15px;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 1;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
@@ -140,14 +140,14 @@
 }
 
 .solutionsInfo2 {
-  padding: 0 0 70px;
+  padding: 0 0 40px;
 }
 .solutionsInfo2 .wrap {
   width: 1400px;
   margin: auto;
 }
 .solutionsInfo2 .wrap .content {
-  height: 577px;
+  height: 277px;
   position: relative;
   z-index: 1;
   border-radius: 12px;
@@ -160,8 +160,6 @@
 }
 .solutionsInfo2 .wrap .content .point {
   position: absolute;
-  left: var(--px, 0px);
-  top: var(--py, 0px);
   cursor: pointer;
   transition: .3s ease;
 }
@@ -214,11 +212,6 @@
   line-height: normal;
   transition: .4s ease;
 }
-.solutionsInfo2 .wrap .content .point.flip .hide {
-  left: auto;
-  right: -6px;
-  padding: 0 57px 0 18px;
-}
 
 .solutionsInfo3 {
   padding: 0 0 60px;
@@ -246,7 +239,7 @@
   font-weight: 400;
 }
 .solutionsInfo3 .wrap .content {
-  margin: 40px 0 0 0;
+  margin: 20px 0 0 0;
 }
 .solutionsInfo3 .wrap .content .keySwiper {
   width: 100%;
@@ -418,11 +411,6 @@
   text-transform: uppercase;
   margin: 0 0 19px;
 }
-.solutionsInfo4 .wrap .content-container{
-  display: flex;
-  flex-direction: row;
-  gap: 16px;
-}
 
 .solutionsInfo4 .wrap .content {
   border-radius: 14px;
@@ -511,13 +499,4 @@
 }
 .solutionsInfo5 .wrap .content .item .common_more p {
   font-size: 16px;
-}
-
-/* .solutionsInfo4 .wrap .content + .content {
-  margin-top: 16px;
-} */
-.solutionsInfo1 .wrap .content .l .item .icon img,
-.solutionsInfo3 .wrap .content .keySwiper .swiper-slide .item .item_t .headline .l .icon img {
-  width: 100%;
-  height: 100%;
 }

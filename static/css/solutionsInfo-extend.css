@@ -1,0 +1,86 @@
+.solutionsInfo2 .wrap .content .point {
+  position: absolute;
+  left: var(--px, 0px);
+  top: var(--py, 0px);
+  cursor: pointer;
+  transition: .3s ease;
+}
+
+.solutionsInfo2 .wrap .content .point .hide {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -6px;
+  height: var(--ph, 46px);
+  min-width: var(--pw, 0px);
+  padding: 0 18px 0 57px;
+  border-radius: 60px;
+  background: #FFF;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  transition: .4s ease;
+}
+
+.solutionsInfo3 .wrap .content .keySwiper .swiper-slide .item .item_t .headline .label{
+  text-transform: uppercase;   
+  background: #dff7fb;
+  color: #047f91;
+  border-color: #8bdce5;
+}
+
+.solutionsInfo3 .wrap .content .keySwiper .swiper-slide .item .item_t .headline .label.inertial
+{
+  color: #5f3ea6;
+  background: #efe7ff;
+  border-color: #cbb8ff;
+}
+
+.solutionsInfo3 .wrap .content .keySwiper .swiper-slide .item .item_t .headline .label.flow
+{
+  background: #e7f7ea;
+  color: #236f45;
+  border-color: #aad3b2;
+}
+
+.solutionsInfo4 .wrap .content {
+  background-color: #142d43;
+}
+
+.solutionsInfo3 .wrap .content .button {
+  display: flex;
+}
+
+.solutionsInfo4 .wrap .content .common_more2{
+  background-color: var(--color);
+}
+
+.solutionsInfo4 .wrap .content .common_more2.bor{
+  background-color: transparent
+}
+
+.solutionsInfo4 .wrap .content .common_more2 p {
+  color: #FFF;
+}
+
+.solutionsInfo4 .wrap .content .common_more2 img {
+  filter: brightness(0) invert(1);
+}
+
+.solutionsInfo4 .wrap .content-container{
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.solutionsInfo4 .wrap .content-container .content{
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
