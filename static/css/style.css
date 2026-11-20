@@ -888,3 +888,17 @@ section.unset {
 .common_form .wrap .form .button {
   margin: 10px 0 0 0;
 }
+.notice{
+  position:fixed;
+  bottom:18px;
+  left:50%;
+  transform:translateX(-50%);
+  background:var(--color);
+  color:#fff;
+  box-shadow:0 8px 18px #001b3366;
+  border-radius:9px;
+  padding:12px 18px;
+  font-size:13px;
+  max-width:85vw;
+  z-index:99;
+}

@@ -14,8 +14,8 @@ var header = `
                     <div class="level">
                         <div class="joke">
                             <a href="current-sensors.html">Current Sensors</a>
-                            <a href="current-sensors.html">Inertial Systems</a>
-                            <a href="current-sensors.html">Flow Sensors</a>
+                            <a href="inertial-systems.html">Inertial Systems</a>
+                            <a href="flow-sensors.html">Flow Sensors</a>
                         </div>
                     </div>
                 </div>
@@ -104,8 +104,8 @@ var footer = `
                         <a href="products.html">Products</a>
                         <div class="level">
                             <a href="current-sensors.html">Current Sensors</a>
-                            <a href="current-sensors.html">Inertial Systems</a>
-                            <a href="current-sensors.html">Flow Sensors</a>
+                            <a href="inertial-systems.html">Inertial Systems</a>
+                            <a href="flow-sensors.html">Flow Sensors</a>
                         </div>
                     </div>
                     <div class="item">
@@ -988,5 +988,13 @@ function initFormValidate(formSelector, btnSelector, callback, lang) {
 }
 
 
-
-
+document.querySelectorAll('a[href="#"]').forEach(link=>link.addEventListener('click',(e)=>{
+    e.preventDefault();
+    let n=document.querySelector('.notice');
+    if(n)n.remove();
+    n=document.createElement('div');
+    n.className='notice';n.setAttribute('role','status');
+    n.textContent=link.dataset.stub||'This destination is not included in the demo site.';
+    document.body.appendChild(n);
+    setTimeout(()=>n.remove(),3500)
+}));
